@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+}
+
+.visitor_counter {
+  font-family: 'Orbitron', sans-serif;
+  width: 160px;
+  height: 60px;
+  background: #333;
+  color: #eee;
+  outline: 3px solid red;
+  outline-offset: 3px;
+  margin: 90px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visitor_counter h1 {
+  font-style: italic;
+  padding: 15px 30px 6px 30px;
+}
